@@ -1,1 +1,17 @@
 # BAR CODE SCANNER PROJECT
+
+This repository contains a barcode scanning project that combines a backend built with Django Rest Framework (DRF) and a frontend developed in Angular.
+
+Backend: Django Rest Framework
+
+Django Rest Framework (DRF): The backend handles HTTP requests, processes images, and manages the encoding and decoding of barcodes.
+OpenCV and Pyzbar: Uses OpenCV for image capture and processing, while Pyzbar handles barcode decoding. Images are converted to base64 format for transmission and processing.
+Frontend: Angular
+
+Angular Frontend: Developed by a colleague, the frontend implements advanced logic for streaming from the camera and capturing images in real-time for barcode reading.
+Real-Time Streaming and Scanning: Enables continuous video capture to detect barcodes, providing a fast and efficient scanning experience.
+Features
+
+Fast and Accurate Scanning: Utilizes advanced technologies to ensure efficient and precise barcode scanning.
+Full Integration: Fully integrated backend and frontend for a complete barcode scanning solution.
+User-Friendly: Simple setup on both server and client sides for quick deployment. 

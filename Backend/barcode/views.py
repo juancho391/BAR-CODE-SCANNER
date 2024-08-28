@@ -5,7 +5,7 @@ from .serializers import imageSerializer, productSerializer , codeSerializer
 from .utils import decodeImage
 from .models import products
 
-# Create your views here.
+
 
 
 
